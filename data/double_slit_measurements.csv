@@ -1,0 +1,13 @@
+pattern,original_pattern_label,feature,recorded_order,span_cm,reading_scale_cm,used_for_scale_fit,note
+224,226,fine,1,0.25,0.05,yes,complete reading
+224,226,fine,2,0.46,0.05,yes,complete reading
+224,226,fine,3,0.65,0.2,no,outer feature/order assignment uncertain
+224,226,envelope,1,0.8,0.1,yes,complete reading
+224,226,envelope,2,1.35,0.05,yes,complete reading
+224,226,envelope,3,3.12,0.2,no,outer feature/order assignment uncertain
+222,222,fine,1,0.11,0.05,no,complete reading
+222,222,fine,2,,0.05,no,"incomplete 0. entry, not interpreted as zero"
+222,222,fine,3,0.65,0.2,no,outer feature/order assignment uncertain
+222,222,envelope,1,0.25,0.05,no,duplicates first pattern fine-fringe block
+222,222,envelope,2,0.46,0.05,no,duplicates first pattern fine-fringe block
+222,222,envelope,3,0.65,0.2,no,duplicates first pattern fine-fringe block

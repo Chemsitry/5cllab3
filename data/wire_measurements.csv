@@ -1,0 +1,7 @@
+wire,original_label,side_maximum_order,span_cm,reading_scale_cm,used_for_calculation,note
+thin,1,1,1.02,0.05,yes,opposite-side interpretation
+thin,2,2,1.98,0.1,yes,opposite-side interpretation
+thin,3,3,2.97,0.05,yes,opposite-side interpretation
+thick,3-7 Maximum,,0.048,0.05,no,ambiguous interval
+thick,4-4,4,1.15,0.4,conditional,interpreted as opposite fourth maxima
+thick,1-5,,,0.048,no,central value missing

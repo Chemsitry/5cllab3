@@ -1,0 +1,164 @@
+{
+  "wire": {
+    "maximum_coordinates_beta_over_pi": [
+      1.4302966531242025,
+      2.459024032956761,
+      3.47088972434702,
+      4.477408583432515
+    ],
+    "recorded_thin_spans_cm": [
+      1.02,
+      1.98,
+      2.97
+    ],
+    "reading_scales_cm": [
+      0.05,
+      0.1,
+      0.05
+    ],
+    "fitted_spans_cm": [
+      1.1901624679443223,
+      2.0461755995901636,
+      2.8881579714727343
+    ],
+    "fitted_span_scales_cm": [
+      0.018103846842822815,
+      0.031124867962341443,
+      0.04393246382885119
+    ],
+    "K_cm": 0.8321088253577646,
+    "K_reading_scale_cm": 0.012657406981466755,
+    "normalized_residuals": [
+      -3.4032493588864465,
+      -0.6617559959016361,
+      1.636840570545317
+    ],
+    "residual_plot_error_bars": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "weighted_chi_squared_diagnostic": 14.699274250255893,
+    "degrees_of_freedom": 2,
+    "reduced_weighted_diagnostic": 7.349637125127947,
+    "wavelength_assumed_m": 6.346e-07,
+    "wire_screen_separation_m": 0.7626999999999999,
+    "thin_diameter_um": 116.33320192028981,
+    "thin_diameter_reading_scale_um": 1.7695722449875084,
+    "thin_equivalent_slit_central_width_cm": 0.8321088253577646,
+    "thin_adjacent_one_side_minima_cm": 0.4160544126788823,
+    "thick": {
+      "interpretation": "4-4 denotes opposite fourth bright maxima",
+      "recorded_span_cm": 1.15,
+      "reading_scale_cm": 0.4,
+      "K_cm": 0.256844998299971,
+      "K_reading_scale_cm": 0.0893373907130334,
+      "diameter_um": 376.88833592525106,
+      "diameter_reading_scale_um": 131.09159510443516,
+      "adjacent_one_side_minima_cm": 0.1284224991499855
+    }
+  },
+  "double_slit": {
+    "labels_confirmed_by_user": [
+      "222",
+      "224"
+    ],
+    "first_input_block_interpreted_as": "224",
+    "center_separation_to_width_ratio": {
+      "222": 2,
+      "224": 3
+    },
+    "first_missing_bright_order": {
+      "222": 2,
+      "224": 3
+    },
+    "224_fine_first_two_K_cm_per_order": 0.23399999999999999,
+    "224_fine_first_two_uK_cm_per_order": 0.022360679774997897,
+    "224_fine_first_two_weighted_diagnostic": 0.12799999999999986,
+    "224_envelope_first_two_K_cm": 0.5498035747990938,
+    "224_envelope_first_two_uK_cm": 0.019524345002877034,
+    "224_predicted_third_envelope_maximum_cm": 1.9083075781794328,
+    "224_predicted_third_envelope_maximum_scale_cm": 0.06776684844509198,
+    "224_third_envelope_recorded_cm": 3.12,
+    "224_third_feature_discrepancy_in_combined_reading_scales": 5.738022308500797,
+    "common_geometry_expected_fine_spacing_ratio_224_to_222": 0.6666666666666666,
+    "linear_fits": {
+      "fine_224": {
+        "coordinate": [
+          1.0,
+          2.0
+        ],
+        "measurements_cm": [
+          0.25,
+          0.46
+        ],
+        "reading_scales_cm": [
+          0.05,
+          0.05
+        ],
+        "intercept_cm": 0.0,
+        "slope_cm": 0.23399999999999999,
+        "slope_reading_scale_cm": 0.022360679774997897,
+        "fitted_spans_cm": [
+          0.23399999999999999,
+          0.46799999999999997
+        ],
+        "normalized_residuals": [
+          0.3200000000000003,
+          -0.15999999999999903
+        ],
+        "residual_plot_error_bars": [
+          1.0,
+          1.0
+        ],
+        "weighted_chi_squared_diagnostic": 0.12799999999999986,
+        "degrees_of_freedom": 1,
+        "reduced_weighted_diagnostic": 0.12799999999999986
+      },
+      "envelope_224": {
+        "coordinate": [
+          1.4302966531242025,
+          2.459024032956761
+        ],
+        "measurements_cm": [
+          0.8,
+          1.35
+        ],
+        "reading_scales_cm": [
+          0.1,
+          0.05
+        ],
+        "intercept_cm": 0.0,
+        "slope_cm": 0.5498035747990938,
+        "slope_reading_scale_cm": 0.019524345002877034,
+        "fitted_spans_cm": [
+          0.786382212910866,
+          1.351980203836512
+        ],
+        "normalized_residuals": [
+          0.1361778708913408,
+          -0.03960407673023969
+        ],
+        "residual_plot_error_bars": [
+          1.0,
+          1.0
+        ],
+        "weighted_chi_squared_diagnostic": 0.0201128954141534,
+        "degrees_of_freedom": 1,
+        "reduced_weighted_diagnostic": 0.0201128954141534
+      }
+    }
+  },
+  "assumptions": [
+    "The user confirmed maxima, superseding minima in input.tex.",
+    "Opposite-side spans follow the repeated earlier procedure.",
+    "The first input block is treated as 224 after the plate-label correction.",
+    "The thick 4-4 entry is interpreted as opposite fourth maxima.",
+    "Red-laser wavelength comes from the Lab 2 equipment specification.",
+    "Bench position and wavelength uncertainties were not supplied and are held fixed.",
+    "The previous lens location is upstream of the wire if retained.",
+    "Missing or ambiguous values are not imputed.",
+    "Chi squared is reported as a diagnostic because reading scales are estimates.",
+    "Experiment 5 plate position is unrecorded, so absolute slit dimensions are not inferred."
+  ]
+}
